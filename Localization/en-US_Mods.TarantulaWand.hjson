@@ -1,6 +1,6 @@
 Items: {
 	TarantulaWandWeapon: {
-		DisplayName: TarantulaWandWeapon
+		DisplayName: Tarantula's Wand
 		ToolTip: you shoot a web
 		Tooltip: ""
 	}
