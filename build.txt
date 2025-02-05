@@ -1,3 +1,4 @@
 displayName = Tarantula&#39;s Wand
 author = avivushka &amp; silverd
 version = 0.1
+include=Content/*
