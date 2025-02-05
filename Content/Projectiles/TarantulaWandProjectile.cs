@@ -1,17 +1,19 @@
-
+using TarantulaWand.Content;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using ReLogic.Content;
+using System;
 using Terraria;
+using Terraria.Audio;
+using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TarantulaWand.Projectiles
+namespace TarantulaWand.Content.Projectiles
 {
 
 public class TarantulaWandProjectile : ModProjectile
-    // This Example show how to implement simple homing projectile
-    // Can be tested with ExampleCustomAmmoGun
     {
-        // Store the target NPC using Projectile.ai[0]
         private NPC HomingTarget
         {
             get => Projectile.ai[0] == 0 ? null : Main.npc[(int)Projectile.ai[0] - 1];

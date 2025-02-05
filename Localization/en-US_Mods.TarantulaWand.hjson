@@ -1,12 +1,9 @@
-Items:
-{
-	TarantulaWandWeapon:
-	{
-	DisplayName: TarantulaWandWeapon
-	ToolTip: you shoot a web
+Items: {
+	TarantulaWandWeapon: {
+		DisplayName: TarantulaWandWeapon
+		ToolTip: you shoot a web
+		Tooltip: ""
 	}
 }
-Projectiles:
-{
-	TarantulaWandProjectile.DisplayName: WebProjectile
-	}
+
+Projectiles.TarantulaWandProjectile.DisplayName: WebProjectile
